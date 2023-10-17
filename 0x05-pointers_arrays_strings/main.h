@@ -1,0 +1,16 @@
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
+int _putchar(char c);
+void reset_to_98(int *n);
+void swap_int(int *n, int *m);
+int _strlen(char *s);
+void _puts(char *s);
+void print_rev(char *s);
+void rev_string(char *s);
+void puts2(char *s);
+void puts_half(char *s);
+void print_array(int *arr, int n);
+char *_strcpy(char *dest, char *src);
+
+#endif

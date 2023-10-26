@@ -1,6 +1,9 @@
-#include "main.h"
 /**
  * _sqrt_recursion_wrapper - a wrapper that does the recursion bit
+ *
+ * @n : input number
+ * @min: min number to guess
+ * @max: max number to guess
  *
  * Return: square root of @n or -1
 */
@@ -16,6 +19,7 @@ int _sqrt_recursion_wrapper(int n, int min, int max)
 	else if (min == max)
 		return (-1);
 	else if (guess_squared < n)
+
 		return (_sqrt_recursion_wrapper(n, guess + 1, max));
 	else
 		return (_sqrt_recursion_wrapper(n, min, guess - 1));

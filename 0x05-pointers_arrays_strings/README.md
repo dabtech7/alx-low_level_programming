@@ -1,1 +1,1 @@
-0x05-pointers_array_strings
+Pointers, arrays and Strings in C programming
